@@ -1,0 +1,88 @@
+{
+  "professores": [
+    {
+      "id": 1,
+      "nome": "José"
+    },
+    {
+      "id": 2,
+      "nome": "Pedro"
+    },
+    {
+      "id": 3,
+      "nome": "João"
+    }
+  ],
+  "alunos": [
+    {
+      "id": 1,
+      "nome": "Doctor",
+      "sobrenome": "Strange",
+      "dataNasc": "09/11/1988",
+      "professor": {
+        "id": 1,
+        "nome": "José"
+      }
+    },
+    {
+      "id": 2,
+      "nome": "Viúva",
+      "sobrenome": "Negra",
+      "dataNasc": "17/07/1987",
+      "professor": {
+        "id": 1,
+        "nome": "José"
+      }
+    },
+    {
+      "id": 3,
+      "nome": "Capitão",
+      "sobrenome": "América",
+      "dataNasc": "24/01/2001",
+      "professor": {
+        "id": 1,
+        "nome": "José"
+      }
+    },
+    {
+      "nome": "Peter",
+      "sobrenome": "Parker",
+      "dataNasc": "17/12/1990",
+      "id": 4,
+      "professor": {
+        "id": 2,
+        "nome": "Pedro"
+      }
+    },
+    {
+      "nome": "Pantera",
+      "sobrenome": "Negra",
+      "dataNasc": "23/04/1985",
+      "id": 5,
+      "professor": {
+        "id": 3,
+        "nome": "João"
+      }
+    },
+    {
+      "nome": "Cristiano",
+      "sobrenome": "Ronaldo",
+      "dataNasc": "14/10/1995",
+      "professor": {
+        "id": 2,
+        "nome": "Pedro"
+      },
+      "id": 6
+    },
+    {
+      "nome": "Lionel",
+      "sobrenome": "Messi",
+      "dataNasc": "30/01/2006",
+      "professor": {
+        "id": 3,
+        "nome": "João"
+      },
+      "id": 7
+    }
+  ]
+}
